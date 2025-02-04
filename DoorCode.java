@@ -10,5 +10,6 @@ class DoorCode{
         } else {
             System.out.println("Unrecognised");
         }
+        scan.close();
     }
 }
